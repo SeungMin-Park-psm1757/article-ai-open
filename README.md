@@ -2,6 +2,8 @@
 
 연구자가 보유한 PDF를 로컬에서 등록하고 검색하는 **개발 중인 후보**입니다. 현재 PDF 텍스트 추출, 페이지 단위 문자 검색, 정확한 문장 일치 검사와 Markdown 보고서를 제공합니다. 문자 일치는 표절 판정이 아닙니다.
 
+ARTICLE AI가 어떤 도구인지 쉽게 살펴보려면 [소개·시연 안내 사이트](https://article-ai-showcase.psm1757.workers.dev/#demo)를 방문하세요. 안내 사이트의 시연과 이 저장소의 개발 후보 기능은 다를 수 있습니다.
+
 [설치 안내](docs/ko/INSTALL_WINDOWS.md) · [배포 설계와 기능 상태](docs/ko/ARCHITECTURE.md) · [모델 준비](docs/ko/MODEL_ARTIFACTS.md) · [개념 관리](docs/ko/ONTOLOGY_GUIDE.md) · [보안과 라이선스](docs/ko/SECURITY_AND_LICENSE.md)
 
 ## Windows 설치와 실행
