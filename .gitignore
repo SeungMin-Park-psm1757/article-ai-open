@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+reports/
+models/
+data/
+*.pdf
+*.safetensors
+*.gguf
+*.db
+*.log
+.env
