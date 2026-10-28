@@ -30,7 +30,7 @@
 
    JSON의 `core`가 `PASS`인지 확인한다. 이 시험은 임시 폴더의 합성 PDF와 빈 DB만 사용하며 실제 사용자 문헌과 모델을 읽지 않는다. `embedding`과 `reranker`의 `NOT_RUN`은 시험하지 않았다는 뜻이다. 실패하면 오류를 보고하고 다음 단계의 성공을 주장하지 않는다.
 
-4. 사용자가 의미 검색까지 원하는 경우 `docs/ko/MODEL_ARTIFACTS.md`와 `docs/ko/SEMANTIC_SEARCH.md`를 읽는다. 모델별 공식 배포처·라이선스·예상 다운로드 크기와 디스크 공간을 안내하고, 사용자가 다운로드에 동의한 경우에만 아래 단계를 진행한다. 기존 공유 모델 캐시, LM Studio, WSL 또는 다른 서비스의 시작·종료를 강제하지 않는다.
+4. 사용자가 의미 검색까지 원하는 경우 `docs/ko/MODEL_ARTIFACTS.md`와 `docs/ko/SEMANTIC_SEARCH.md`를 읽는다. 모델별 공식 배포처·라이선스·예상 다운로드 크기와 디스크 공간을 안내하고, 사용자가 다운로드에 동의한 경우에만 아래 단계를 진행한다. 고정 목록 기준 임베딩과 리랭커는 각각 약 1.12 GiB이고 GPT-OSS는 약 12.84 GiB다. 여유 공간, 패키지와 임시 파일에는 추가 공간이 필요하다. 기존 공유 모델 캐시, LM Studio, WSL 또는 다른 서비스의 시작·종료를 강제하지 않는다.
 
    ```powershell
    .\scripts\install-ai.ps1
